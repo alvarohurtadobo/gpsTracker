@@ -1,0 +1,5 @@
+<b>Arduino based GPS</b>
+
+<p>This is the design of an Atmega328p GPS module that together with a SIM800 L module reports location </p>
+
+<p>This module also contains all electrical signal contitioning required for the system to properly work</p>
