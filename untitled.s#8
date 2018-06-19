@@ -12211,8 +12211,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="Y1" library="SparkFun-Clocks" library_urn="urn:adsk.eagle:library:511" deviceset="CRYSTAL-16MHZ" device="SMD-5X3.2" package3d_urn="urn:adsk.eagle:package:37518/1" value="16MHz"/>
 <part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10NF" device="-0603-50V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10nF"/>
-<part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10NF" device="-0603-50V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="10nF"/>
+<part name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10NF" device="-0603-50V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="22pF"/>
+<part name="C2" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10NF" device="-0603-50V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="22pF"/>
 <part name="U3" library="SIM800L" deviceset="SIM800L" device=""/>
 <part name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="SIMHOLDER" device="SIM" package3d_urn="urn:adsk.eagle:package:38234/1"/>
 <part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -12310,7 +12310,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
 <part name="U$19" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0805_L" package3d_urn="urn:adsk.eagle:package:2593726/1" value="0.1uF"/>
 <part name="U$20" library="Nordic_nRF" library_urn="urn:adsk.eagle:library:169009" deviceset="CAPACITOR" device="_0805_L" package3d_urn="urn:adsk.eagle:package:2593726/1" value="0.1uF"/>
-<part name="R24" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0805" package3d_urn="urn:adsk.eagle:package:39651/1" value="47k"/>
+<part name="R24" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="0805" package3d_urn="urn:adsk.eagle:package:39651/1" value="4.7k"/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="AVR_SPI_PROG_3X2" device="OFFSET_PADS" package3d_urn="urn:adsk.eagle:package:38017/1"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
@@ -12344,10 +12344,10 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="U2" gate="G$1" x="12.7" y="-2.54"/>
 <instance part="GND2" gate="1" x="-53.34" y="53.34"/>
 <instance part="Y1" gate="G$1" x="-55.88" y="88.9" rot="R90"/>
-<instance part="GND4" gate="1" x="-81.28" y="73.66"/>
+<instance part="GND4" gate="1" x="-86.36" y="73.66"/>
 <instance part="GND5" gate="1" x="-76.2" y="73.66"/>
 <instance part="C1" gate="G$1" x="-76.2" y="81.28"/>
-<instance part="C2" gate="G$1" x="-81.28" y="81.28"/>
+<instance part="C2" gate="G$1" x="-86.36" y="81.28"/>
 <instance part="U3" gate="G$1" x="124.46" y="20.32"/>
 <instance part="J2" gate="J1" x="134.62" y="106.68"/>
 <instance part="GND6" gate="1" x="165.1" y="109.22"/>
@@ -12476,6 +12476,10 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="-45.72" y1="106.68" x2="-53.34" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-53.34" y1="106.68" x2="-53.34" y2="109.22" width="0.1524" layer="91"/>
 <junction x="-53.34" y="109.22"/>
+<pinref part="U1" gate="U$1" pin="AREF"/>
+<wire x1="-45.72" y1="101.6" x2="-53.34" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-53.34" y1="101.6" x2="-53.34" y2="106.68" width="0.1524" layer="91"/>
+<junction x="-53.34" y="106.68"/>
 </segment>
 <segment>
 <pinref part="R24" gate="G$1" pin="2"/>
@@ -12506,7 +12510,7 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="C2" gate="G$1" pin="2"/>
-<wire x1="-81.28" y1="76.2" x2="-81.28" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="76.2" x2="-86.36" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -12675,8 +12679,8 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="Y1" gate="G$1" pin="2"/>
 <wire x1="-45.72" y1="91.44" x2="-55.88" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="-55.88" y1="91.44" x2="-81.28" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="-81.28" y1="91.44" x2="-81.28" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-55.88" y1="91.44" x2="-86.36" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="91.44" x2="-86.36" y2="86.36" width="0.1524" layer="91"/>
 <junction x="-55.88" y="91.44"/>
 </segment>
 </net>

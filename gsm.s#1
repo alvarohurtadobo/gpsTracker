@@ -11715,7 +11715,9 @@ DIN A3, landscape with location and doc. field</description>
 </class>
 </classes>
 <parts>
-<part name="U4" library="SparkFun-IC-Microcontroller" library_urn="urn:adsk.eagle:library:525" deviceset="ATMEGA328P_TQFP" device="" package3d_urn="urn:adsk.eagle:package:38945/1" value="ATMEGA328P_TQFP"/>
+<part name="U4" library="SparkFun-IC-Microcontroller" library_urn="urn:adsk.eagle:library:525" deviceset="ATMEGA328P_TQFP" device="" package3d_urn="urn:adsk.eagle:package:38945/1" value="ATMEGA328P_TQFP">
+<attribute name="SPICEPREFIX" value="X"/>
+</part>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
@@ -11728,7 +11730,9 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C8" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10NF" device="-0603-50V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="22pF"/>
 <part name="C7" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="10NF" device="-0603-50V-10%" package3d_urn="urn:adsk.eagle:package:37414/1" value="22pF"/>
-<part name="U8" library="SIM800L" deviceset="SIM800L" device=""/>
+<part name="U8" library="SIM800L" deviceset="SIM800L" device="">
+<attribute name="SPICEPREFIX" value="X"/>
+</part>
 <part name="J6" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="SIMHOLDER" device="SIM" package3d_urn="urn:adsk.eagle:package:38234/1"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -11740,7 +11744,6 @@ DIN A3, landscape with location and doc. field</description>
 <part name="R21" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.22OHM" device="-0805-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39651/1" value="220"/>
 <part name="D3" library="SMF05C.TCT" deviceset="SMF05C.TCT" device=""/>
 <part name="R13" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.22OHM" device="-0805-1/4W-1%" package3d_urn="urn:adsk.eagle:package:39651/1" value="220"/>
-<part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="U.FL" device="" package3d_urn="urn:adsk.eagle:package:38237/1" value="U.FL"/>
 <part name="R15" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.3OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:39651/1" value="1k"/>
 <part name="R24" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.3OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:39651/1" value="1k"/>
@@ -11749,10 +11752,8 @@ DIN A3, landscape with location and doc. field</description>
 <part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="BT1" library="SparkFun-Batteries" library_urn="urn:adsk.eagle:library:508" deviceset="BATTERY" device="-18650" package3d_urn="urn:adsk.eagle:package:37227/1"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R23" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.3OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:39651/1" value="1k"/>
 <part name="R22" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="0.3OHM" device="-0805-1/8W-1%" package3d_urn="urn:adsk.eagle:package:39651/1" value="1k"/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
-<part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/2"/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="Q3" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="FDN360P" device="" package3d_urn="urn:adsk.eagle:package:29529/2"/>
@@ -11830,7 +11831,6 @@ DIN A3, landscape with location and doc. field</description>
 <part name="C21" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.33UF/330NF" device="-0805-50V-10%" package3d_urn="urn:adsk.eagle:package:37429/1" value="22pF"/>
 <part name="C22" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.33UF/330NF" device="-0805-50V-10%" package3d_urn="urn:adsk.eagle:package:37429/1" value="22uF"/>
 <part name="C20" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.33UF/330NF" device="-0805-50V-10%" package3d_urn="urn:adsk.eagle:package:37429/1" value="4.7uF"/>
-<part name="C16" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.33UF/330NF" device="-0805-50V-10%" package3d_urn="urn:adsk.eagle:package:37429/1" value="0.1uF"/>
 <part name="C12" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.33UF/330NF" device="-0805-50V-10%" package3d_urn="urn:adsk.eagle:package:37429/1" value="10uF"/>
 <part name="C13" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.33UF/330NF" device="-0805-50V-10%" package3d_urn="urn:adsk.eagle:package:37429/1" value="0.1uF"/>
 <part name="C14" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.33UF/330NF" device="-0805-50V-10%" package3d_urn="urn:adsk.eagle:package:37429/1" value="0.1uF"/>
@@ -11854,7 +11854,7 @@ DIN A3, landscape with location and doc. field</description>
 <instances>
 <instance part="U4" gate="U$1" x="10.16" y="78.74"/>
 <instance part="P+3" gate="1" x="-22.86" y="109.22"/>
-<instance part="+3V31" gate="G$1" x="78.74" y="2.54"/>
+<instance part="+3V31" gate="G$1" x="73.66" y="7.62"/>
 <instance part="P+1" gate="1" x="-162.56" y="127"/>
 <instance part="GND26" gate="1" x="157.48" y="-25.4"/>
 <instance part="J3" gate="G$1" x="-27.94" y="22.86" rot="R270"/>
@@ -11873,11 +11873,10 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="GND23" gate="1" x="111.76" y="78.74"/>
 <instance part="GND21" gate="1" x="88.9" y="116.84"/>
 <instance part="R17" gate="G$1" x="99.06" y="106.68"/>
-<instance part="R18" gate="G$1" x="99.06" y="104.14"/>
+<instance part="R18" gate="G$1" x="83.82" y="104.14"/>
 <instance part="R21" gate="G$1" x="152.4" y="104.14"/>
 <instance part="D3" gate="G$1" x="132.08" y="88.9"/>
-<instance part="R13" gate="G$1" x="78.74" y="-20.32" rot="R90"/>
-<instance part="GND20" gate="1" x="78.74" y="-27.94"/>
+<instance part="R13" gate="G$1" x="73.66" y="-2.54" rot="R90"/>
 <instance part="J5" gate="G$1" x="86.36" y="0"/>
 <instance part="R15" gate="G$1" x="91.44" y="5.08"/>
 <instance part="R24" gate="G$1" x="157.48" y="5.08"/>
@@ -11886,10 +11885,8 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="GND3" gate="1" x="-162.56" y="86.36"/>
 <instance part="BT1" gate="G$1" x="-106.68" y="101.6" rot="R270"/>
 <instance part="GND25" gate="1" x="157.48" y="43.18"/>
-<instance part="R23" gate="G$1" x="157.48" y="12.7"/>
 <instance part="R22" gate="G$1" x="157.48" y="20.32"/>
 <instance part="LED1" gate="G$1" x="167.64" y="20.32" rot="R90"/>
-<instance part="LED2" gate="G$1" x="167.64" y="12.7" rot="R90"/>
 <instance part="GND30" gate="1" x="177.8" y="7.62"/>
 <instance part="+3V33" gate="G$1" x="167.64" y="68.58"/>
 <instance part="Q3" gate="G$1" x="132.08" y="-71.12"/>
@@ -11967,7 +11964,6 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="C21" gate="G$1" x="160.02" y="96.52"/>
 <instance part="C22" gate="G$1" x="167.64" y="50.8"/>
 <instance part="C20" gate="G$1" x="157.48" y="50.8"/>
-<instance part="C16" gate="G$1" x="78.74" y="-7.62"/>
 <instance part="C12" gate="G$1" x="-7.62" y="-78.74"/>
 <instance part="C13" gate="G$1" x="25.4" y="-78.74"/>
 <instance part="C14" gate="G$1" x="38.1" y="-78.74"/>
@@ -12062,10 +12058,6 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="134.62" y1="83.82" x2="134.62" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="GND20" gate="1" pin="GND"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-</segment>
-<segment>
 <pinref part="GND3" gate="1" pin="GND"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="-162.56" y1="88.9" x2="-162.56" y2="93.98" width="0.1524" layer="91"/>
@@ -12078,16 +12070,6 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="GND25" gate="1" pin="GND"/>
 <wire x1="157.48" y1="45.72" x2="157.48" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="2"/>
-</segment>
-<segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="172.72" y1="20.32" x2="177.8" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="GND30" gate="1" pin="GND"/>
-<wire x1="177.8" y1="20.32" x2="177.8" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="177.8" y1="12.7" x2="177.8" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="12.7" x2="172.72" y2="12.7" width="0.1524" layer="91"/>
-<junction x="177.8" y="12.7"/>
 </segment>
 <segment>
 <pinref part="GND22" gate="1" pin="GND"/>
@@ -12193,6 +12175,12 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="GND28" gate="1" pin="GND"/>
 <wire x1="167.64" y1="45.72" x2="167.64" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<wire x1="172.72" y1="20.32" x2="177.8" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="GND30" gate="1" pin="GND"/>
+<wire x1="177.8" y1="10.16" x2="177.8" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -12314,6 +12302,11 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="99.06" y1="109.22" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="114.3" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U8" gate="G$1" pin="VSIM"/>
+<wire x1="149.86" y1="0" x2="154.94" y2="0" width="0.1524" layer="91"/>
+<label x="154.94" y="0" size="0.8128" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="N$4" class="0">
 <segment>
@@ -12377,7 +12370,7 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="J6" gate="J1" pin="CLK"/>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="124.46" y1="104.14" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="104.14" x2="104.14" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="104.14" x2="88.9" y2="104.14" width="0.1524" layer="91"/>
 <junction x="114.3" y="104.14"/>
 <pinref part="D3" gate="G$1" pin="C3"/>
 <wire x1="134.62" y1="91.44" x2="134.62" y2="99.06" width="0.1524" layer="91"/>
@@ -12391,8 +12384,8 @@ DIN A3, landscape with location and doc. field</description>
 <net name="SIMCLK" class="0">
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="104.14" x2="91.44" y2="104.14" width="0.1524" layer="91"/>
-<label x="91.44" y="104.14" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<label x="76.2" y="104.14" size="0.8128" layer="95" rot="R180" xref="yes"/>
+<wire x1="76.2" y1="104.14" x2="78.74" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U8" gate="G$1" pin="SIM_CLK"/>
@@ -12415,13 +12408,12 @@ DIN A3, landscape with location and doc. field</description>
 <net name="SIM_POWKEY" class="0">
 <segment>
 <pinref part="U8" gate="G$1" pin="RESET"/>
-<wire x1="99.06" y1="-10.16" x2="78.74" y2="-10.16" width="0.1524" layer="91"/>
-<junction x="78.74" y="-10.16"/>
-<pinref part="R13" gate="G$1" pin="2"/>
-<wire x1="78.74" y1="-10.16" x2="78.74" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="-10.16" x2="71.12" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="-10.16" x2="73.66" y2="-10.16" width="0.1524" layer="91"/>
 <label x="71.12" y="-10.16" size="0.8128" layer="95" rot="R180" xref="yes"/>
-<pinref part="C16" gate="G$1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="-10.16" x2="71.12" y2="-10.16" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="-7.62" x2="73.66" y2="-10.16" width="0.1524" layer="91"/>
+<junction x="73.66" y="-10.16"/>
 </segment>
 <segment>
 <pinref part="T1" gate="G$1" pin="C"/>
@@ -12433,8 +12425,8 @@ DIN A3, landscape with location and doc. field</description>
 <net name="+3V3" class="0">
 <segment>
 <pinref part="+3V31" gate="G$1" pin="+3V3"/>
-<wire x1="78.74" y1="-2.54" x2="78.74" y2="0" width="0.1524" layer="91"/>
-<pinref part="C16" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="2.54" x2="73.66" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
@@ -12580,13 +12572,6 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="C20" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="R23" gate="G$1" pin="1"/>
-<pinref part="U8" gate="G$1" pin="UART_RI"/>
-<wire x1="152.4" y1="12.7" x2="149.86" y2="12.7" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$12" class="0">
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
@@ -12599,13 +12584,6 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <pinref part="R22" gate="G$1" pin="2"/>
 <wire x1="165.1" y1="20.32" x2="162.56" y2="20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$14" class="0">
-<segment>
-<pinref part="R23" gate="G$1" pin="2"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="162.56" y1="12.7" x2="165.1" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
